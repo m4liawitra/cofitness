@@ -1,0 +1,215 @@
+.header-m {
+    position: relative;
+    background-color: black;
+}
+.header-m:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    z-index: -1;
+    transform: skewX(20deg);
+    top: 0;
+    left: -10%;
+}
+.header-m1 {
+    position: relative;
+    background-color: #C12435;;
+}
+.header-m1:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    z-index: -1;
+    transform: skewX(20deg);
+    top: 0;
+    right: -10%;
+}
+.slantedDiv {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/features/header.jpg");
+    -webkit-background-size: cover;
+    background-position: center center;
+    box-sizing: border-box;
+    z-index: 8;
+}
+#skewedBG {
+    width: 100%;
+    height: 100%;
+    transform: skew(0deg, -2deg) translateY(-120px);
+}
+.content {
+    padding: 200px 30px;
+    transform: skew(0deg, 2deg) translateY(0);
+}
+.contentSkew {
+    padding: 20px 50px;
+    width: 36%;
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    background-color: #C12435;
+}
+.slantedDiv1 {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    background: white;
+    z-index: 8;
+}
+.slantedDiv1:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    transform-origin: top right;
+    transform: skewY(-2deg);
+}
+.slantedDiv2 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    z-index: 7;
+    background-image: url("../images/features/background.jpg");
+    -webkit-background-size: cover;
+    background-position: center center;
+}
+#skewedBG2 {
+    width: 100%;
+    height: 100%;
+    transform: skew(0deg, -2deg) translateY(-100px);
+}
+.content2 {
+    padding: 200px 30px;
+    transform: skew(0deg, 2deg) translateY(0);
+}
+.slantedDiv3 {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    z-index: 7;
+    background-image: url("../images/features/background.jpg");
+    -webkit-background-size: cover;
+    background-position: center center;
+}
+#skewedBG3 {
+    width: 100%;
+    height: 100%;
+    transform: skew(0deg, -2deg) translateY(-100px);
+}
+.content3 {
+    padding: 70px 30px;
+    transform: skew(0deg, 2deg) translateY(0);
+}
+.slantedDiv5 {
+    position: relative;
+    background-image: url("../images/features/header.jpg");
+    -webkit-background-size: cover;
+    background-position: center center;
+    z-index: 8;
+    height: 10px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+#skewedBG5 {
+    width: 100%;
+    height: 100%;
+    transform: skew(0deg, -2deg) translateY(-120px);
+}
+.content5 {
+    padding: 150px 30px 100px 30px;
+    transform: skew(0deg, 2deg) translateY(0);
+}
+.footer-m {
+    position: relative;
+    background-color: black;
+}
+.footer-m:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    z-index: -1;
+    transform: skewX(20deg);
+    top: 0;
+    left: -10%;
+}
+.footer-m1 {
+    position: relative;
+    background-color: #C12435;;
+}
+.footer-m1:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    z-index: -1;
+    transform: skewX(20deg);
+    top: 0;
+    right: -10%;
+}
+.footer-m2 {
+    position: relative;
+    background-color: black;
+}
+.footer-m2:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    z-index: -1;
+    transform: skewX(20deg);
+    top: 0;
+    left: -20%;
+}
+@media (max-width: 575px) {
+    .modal-fullscreen-sm-down {
+        width: 80vw;
+        max-width: none;
+        height: 100%;
+        margin: 0;
+    }
+}
+@media (max-width: 575px) {
+    .modal-fullscreen-sm-down .modal-content1 {
+        height: 100%;
+        border: 0;
+        border-radius: 0;
+        background-color: white;
+    }
+}
+#deserve{
+    font-size:220px;
+    font-weight:700;
+    color: rgba(211, 210, 210, 0.4);
+    position:absolute;
+    letter-spacing: 3px;
+    top: -100px;
+    left: -180px;
+    overflow: hidden;
+    z-index:0;
+}
+#best{
+    font-size:220px;
+    font-weight:700;
+    color: rgba(211, 210, 210, 0.4);
+    position:absolute;
+    letter-spacing: 3px;
+    bottom: -100px;
+    left:380px;
+    overflow: hidden;
+    z-index:0;
+}
