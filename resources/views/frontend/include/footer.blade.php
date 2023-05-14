@@ -42,22 +42,21 @@
         <div class="row">
             <div class="col">
                 <div class="footer-m1" style="padding: 14px 100px;">
-                    <p class="text-center text-md-left text-white mb-0" style="font-weight: 600">Copyright &copy; 2023 CoFitness. All Rights Reserved</p>
-{{--                    <p class="text-center text-md-left text-white mb-0">Copyright &copy; {{ __('content.common.copyright') }}</p>--}}
+                    <p class="text-center text-md-left text-white mb-0" style="font-weight: 600">{{ __('content.common.copyright') }}</p>
                 </div>
             </div>
             <div class="col-1"></div>
             <div class="col text-right">
                 <div class="footer-m" style="padding: 10px 100px;">
                     <ul class="social_icons social_white">
-                        <li><a href="{{ __('content.common.social.facebook') }}"><img src="{{asset('assets/frontend/images/footer/facebook-app-symbol.png')}}" width="90%"/></a></li>
-                        <li><a href="{{ __('content.common.social.instagram') }}"><img src="{{asset('assets/frontend/images/footer/instagram.png')}}" width="90%"/></a></li>
-                        <li><a href="{{ __('content.common.social.telegram') }}"><img src="{{asset('assets/frontend/images/footer/telegram.png')}}" width="90%"/></a></li>
-                        <li><a href="{{ __('content.common.social.tiktok') }}"><img src="{{asset('assets/frontend/images/footer/tik-tok.png')}}" width="90%"/></a></li>
-                        <li><a href="{{ __('content.common.social.twitter') }}"><img src="{{asset('assets/frontend/images/footer/twitter.png')}}"width="90%" /></a></li>
-                        <li><a href="{{ __('content.common.social.viber') }}"><img src="{{asset('assets/frontend/images/footer/viber.png')}}"width="90%" /></a></li>
-                        <li><a href="{{ __('content.common.social.whatsapp') }}"><img src="{{asset('assets/frontend/images/footer/whatsapp.png')}}"width="90%" /></a></li>
-                        <li><a href="{{ __('content.common.social.youtube') }}"><img src="{{asset('assets/frontend/images/footer/youtube.png')}}" width="90%"/></a></li>
+                        <li><a href="{{ __('content.common.social.facebook') }}" title="{{ __('labels.common.social.facebook') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/facebook-app-symbol.png')}}" width="90%"/></a></li>
+                        <li><a href="{{ __('content.common.social.instagram') }}" title="{{ __('labels.common.social.instagram') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/instagram.png')}}" width="90%"/></a></li>
+                        <li><a href="{{ __('content.common.social.telegram') }}" title="{{ __('labels.common.social.telegram') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/telegram.png')}}" width="90%"/></a></li>
+                        <li><a href="{{ __('content.common.social.tiktok') }}" title="{{ __('labels.common.social.tiktok') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/tik-tok.png')}}" width="90%"/></a></li>
+                        <li><a href="{{ __('content.common.social.twitter') }}" title="{{ __('labels.common.social.twitter') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/twitter.png')}}"width="90%" /></a></li>
+                        <li><a href="{{ __('content.common.social.viber') }}" title="{{ __('labels.common.social.viber') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/viber.png')}}" width="90%" /></a></li>
+                        <li><a href="{{ __('content.common.social.whatsapp') }}" title="{{ __('labels.common.social.whatsapp') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/whatsapp.png')}}"width="90%" /></a></li>
+                        <li><a href="{{ __('content.common.social.youtube') }}" title="{{ __('labels.common.social.youtube') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/youtube.png')}}" width="90%"/></a></li>
                     </ul>
                 </div>
             </div>
@@ -100,14 +99,26 @@
     </div>
     <div class="bottom_footer py-0 border-top-tran" >
         <div class="row">
-            <div class="col-sm-7 p-0" style="width: 70%;">
+            <div class="p-0" style="width: 85%;">
                 <div class="footer-m1" style="padding: 14px 0;">
-                    <p class="text-center text-md-left text-white mb-0">&copy; {{ __('content.common.copyright') }}</p>
+                    <p class="text-center text-md-left text-white mb-0">{{ __('content.common.copyright') }}</p>
                 </div>
             </div>
-            <div class="col-sm" style="width: 10%;"></div>
-            <div class="col-sm-4 text-right" style="width: 20%;">
-                <div class="footer-m2" style="padding: 26px 0;"></div>
+            <div style="width: 15%;"></div>
+            <div style="width: 15%;"></div>
+            <div style="width: 85%;">
+                <div class="footer-m2" style="padding: 10px 0;">
+                    <ul class="social_icons social_white">
+                        <li><a href="{{ __('content.common.social.facebook') }}" title="{{ __('labels.common.social.facebook') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/facebook-app-symbol.png')}}" width="90%"/></a></li>
+                        <li><a href="{{ __('content.common.social.instagram') }}" title="{{ __('labels.common.social.instagram') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/instagram.png')}}" width="90%"/></a></li>
+                        <li><a href="{{ __('content.common.social.telegram') }}" title="{{ __('labels.common.social.telegram') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/telegram.png')}}" width="90%"/></a></li>
+                        <li><a href="{{ __('content.common.social.tiktok') }}" title="{{ __('labels.common.social.tiktok') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/tik-tok.png')}}" width="90%"/></a></li>
+                        <li><a href="{{ __('content.common.social.twitter') }}" title="{{ __('labels.common.social.twitter') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/twitter.png')}}"width="90%" /></a></li>
+                        <li><a href="{{ __('content.common.social.viber') }}" title="{{ __('labels.common.social.viber') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/viber.png')}}" width="90%" /></a></li>
+                        <li><a href="{{ __('content.common.social.whatsapp') }}" title="{{ __('labels.common.social.whatsapp') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/whatsapp.png')}}"width="90%" /></a></li>
+                        <li><a href="{{ __('content.common.social.youtube') }}" title="{{ __('labels.common.social.youtube') }}" target="_blank"><img src="{{asset('assets/frontend/images/footer/youtube.png')}}" width="90%"/></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

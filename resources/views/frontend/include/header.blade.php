@@ -30,13 +30,13 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li><a class="nav-link nav_item" href="{{ route('home') }}">{{ __('content.home.title') }}</a></li>
-                    <li><a class="nav-link nav_item" href="{{ route('content.about') }}">{{ __('content.about.title') }}</a></li>
-                    <li><a class="nav-link nav_item" href="{{ route('content.services') }}">{{ __('content.services.title') }}</a></li>
-                    <li><a class="nav-link nav_item" href="{{ route('content.programs') }}">{{ __('content.programs.title') }}</a></li>
-                    <li><a class="nav-link nav_item" href="{{ route('content.features') }}">{{ __('content.features.title') }}</a></li>
-                    <li><a class="nav-link nav_item" href="{{ route('blog') }}">{{ __('content.blog.title') }}</a></li>
-                    <li><a class="nav-link nav_item" href="{{ route('contact') }}">{{ __('content.contact.title') }}</a></li>
+                    <li><a class="nav-link nav_item" href="{{ route('home') }}">{{ Str::upper(__('content.home.title')) }}</a></li>
+                    <li><a class="nav-link nav_item" href="{{ route('content.about') }}">{{ Str::upper(__('content.about.title')) }}</a></li>
+                    <li><a class="nav-link nav_item" href="{{ route('content.services') }}">{{ Str::upper(__('content.services.title')) }}</a></li>
+                    <li><a class="nav-link nav_item" href="{{ route('content.programs') }}">{{ Str::upper(__('content.programs.title')) }}</a></li>
+                    <li><a class="nav-link nav_item" href="{{ route('content.features') }}">{{ Str::upper(__('content.features.title')) }}</a></li>
+                    <li><a class="nav-link nav_item" href="{{ route('blog') }}">{{ Str::upper(__('content.blog.title')) }}</a></li>
+                    <li><a class="nav-link nav_item" href="{{ route('contact') }}">{{ Str::upper(__('content.contact.title')) }}</a></li>
                 </ul>
             </div>
             {{--
@@ -74,12 +74,12 @@
                         </div>
                         <div class="modal-body">
                             <ul class="navbar-nav">
-                                <li><a style="font-size: 20px; font-weight: 800; letter-spacing: 3px;" class="nav-link nav_item" href="{{ route('home') }}">{{ __('content.home.title') }}</a></li>
-                                <li><a style="font-size: 20px; font-weight: 800; letter-spacing: 3px;" class="nav-link nav_item" href="{{ route('content.about') }}">{{ __('content.about.title') }}</a></li>
-                                <li><a style="font-size: 20px; font-weight: 800; letter-spacing: 3px;" class="nav-link nav_item" href="{{ route('content.services') }}">{{ __('content.services.title') }}</a></li>
-                                <li><a style="font-size: 20px; font-weight: 800; letter-spacing: 3px;" class="nav-link nav_item" href="{{ route('content.programs') }}">{{ __('content.programs.title') }}</a></li>
-                                <li><a style="font-size: 20px; font-weight: 800; letter-spacing: 3px;" class="nav-link nav_item" href="{{ route('content.features') }}">{{ __('content.features.title') }}</a></li>
-                                <li><a style="font-size: 20px; font-weight: 800; letter-spacing: 3px;" class="nav-link nav_item" href="{{ route('blog') }}">{{ __('content.blog.title') }}</a></li>
+                                <li><a style="font-size: 20px; font-weight: 800; letter-spacing: 3px;" class="nav-link nav_item" href="{{ route('home') }}">{{ Str::upper(__('content.home.title')) }}</a></li>
+                                <li><a style="font-size: 20px; font-weight: 800; letter-spacing: 3px;" class="nav-link nav_item" href="{{ route('content.about') }}">{{ Str::upper(__('content.about.title')) }}</a></li>
+                                <li><a style="font-size: 20px; font-weight: 800; letter-spacing: 3px;" class="nav-link nav_item" href="{{ route('content.services') }}">{{ Str::upper(__('content.services.title')) }}</a></li>
+                                <li><a style="font-size: 20px; font-weight: 800; letter-spacing: 3px;" class="nav-link nav_item" href="{{ route('content.programs') }}">{{ Str::upper(__('content.programs.title')) }}</a></li>
+                                <li><a style="font-size: 20px; font-weight: 800; letter-spacing: 3px;" class="nav-link nav_item" href="{{ route('content.features') }}">{{ Str::upper(__('content.features.title')) }}</a></li>
+                                <li><a style="font-size: 20px; font-weight: 800; letter-spacing: 3px;" class="nav-link nav_item" href="{{ route('blog') }}">{{ Str::upper(__('content.blog.title')) }}</a></li>
                             </ul>
                         </div>
                     </div>

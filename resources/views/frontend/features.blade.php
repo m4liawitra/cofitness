@@ -79,7 +79,7 @@
         </div>
         <!-- END: WITH BEST RESULTS -->
         <!-- START: GYM FACILITIES -->
-        <div class="section pt-0 d-none d-xl-block">
+        <div id="section-facilities" class="section pt-0 d-none d-xl-block">
             <div class="row" style="padding: 20px 100px;">
                 <div class="col-md-7 col-7">
                     <div class="heading_s1 mb-md-0 heading_light d-flex align-items-center" style="height: 50%;">
@@ -149,7 +149,7 @@
                 </div>
             </div>
         </div>
-        <div class="section d-block d-sm-none">
+        <div id="section-facilities" class="section d-block d-sm-none">
             <div class="row" style="padding: 20px 50px;">
                 <div class="col-sm-12">
                     <div class="heading_s1 mb-md-0 heading_light d-flex align-items-center">

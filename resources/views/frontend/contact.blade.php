@@ -77,7 +77,7 @@
                 <!-- START: GOOGLE MAP -->
                 <div class="row">
                     <div class="col-lg-12 pt-2 mt-4">
-                        <div id="map" class="contact_map2" data-zoom="12" data-latitude="40.680" data-longitude="-73.945" data-icon="{{ asset('assets/common/images/map/marker.png') }}"></div>
+                        <div id="map" class="contact_map2" style="height: 500px" data-zoom="12" data-latitude="40.680" data-longitude="-73.945" data-icon="{{ asset('assets/common/images/map/marker.png') }}"></div>
                     </div>
                 </div>
                 <!-- END: GOOGLE MAP -->

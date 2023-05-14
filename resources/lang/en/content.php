@@ -11,25 +11,40 @@ return [
         'social' => [
             'facebook' => 'https://www.facebook.com/cofitnessph',
             'instagram' => 'https://www.instagram.com/cofitnessph/',
-            'telegram' => '',
+            'telegram' => 'https://telegram.me/cofitnessph',
             'tiktok' => 'https://www.tiktok.com/@cofitnessph?lang=en',
             'twitter' => 'https://twitter.com/cofitnessph',
             'viber' => '',
-            'whatsapp' => '',
+            'whatsapp' => 'https://api.whatsapp.com/send?phone=639151622777',
             'youtube' => 'https://www.youtube.com/channel/UCe_d481Xk4zo5AJRTL7RVEg',
-            
         ],
-        'copyright' => '2023 All Rights Reserved by CoFitness',
+        'copyright' => 'Copyright &copy; 2023 CoFitness. All Rights Reserved',
     ],
     'home' => [
-        'title' => 'HOME',
-        'text_calculate_bmi' => 'Calculate Your BMI'
+        'title' => 'Home',
+        'text_keep_your_mind_and_body' => 'Keep Your Mind And Body',
+        'text_strong_with_us' => 'Strong With Us!',
+        'text_about_us' => 'About Us',
+        'text_about_us_description' => 'Each services focused on different types of training <br>for different area of the body, so you\'ll never do <br>the same workout twice.',
+        'text_calculate_bmi' => 'Calculate Your BMI',
+        'image' => [
+            'about_us' => 'About Us',
+            'services_club' => 'Club Services',
+            'services_fitness' => 'Fitness Services',
+            'services_training' => 'Training Services',
+            'services_class' => 'Class Services',
+            'services_nutrition' => 'Nutrition Services',
+            'services_rehab' => 'Rehab Services',
+        ],
+        'button' => [
+            'about' => 'About',
+        ],
     ],
     'about' => [
-        'title' => 'ABOUT US',
-        'text_about' => 'ABOUT',
-        'text_mission' => 'MISSION',
-        'text_meet_the_team' => 'MEET THE TEAM',
+        'title' => 'About Us',
+        'text_about' => 'About',
+        'text_mission' => 'Mission',
+        'text_meet_the_team' => 'Meet The Team',
         'social' => [
             'facebook' => 'https://www.facebook.com/antonio.sietereales',
             'instagram' => [
@@ -41,37 +56,37 @@ return [
         ],
     ],
     'services' => [
-        'title' => 'SERVICES',
-        'text_club_membership' => 'CLUB MEMBERSHIP',
-        'text_fitness_orientation' => 'FITNESS ORIENTATION & CONSULTATION',
-        'text_personalized_training' => 'PERSONALIZED TRAINING',
-        'text_functional_body' => 'FUNCTIONAL BODY BUILDING CLASS',
-        'text_nutrition' => 'NUTRITION',
-        'text_physical_therapy' => 'PHYSICAL THERAPY AND OTHER REHAB SERVICES',
+        'title' => 'Services',
+        'text_club_membership' => 'Club Membership',
+        'text_fitness_orientation' => 'Fitness Orientation & Consultation',
+        'text_personalized_training' => 'Personalized Training',
+        'text_functional_body' => 'Functional Body Building Class',
+        'text_nutrition' => 'Nutrition',
+        'text_physical_therapy' => 'Physical Therapy And Other Rehab Services',
     ],
     'programs' => [
-        'title' => 'PROGRAMS',
-        'text_grin_method_program' => 'GRIN METHOD PROGRAM',
-        'text_functional_body_building' => 'FUNCTIONAL BODY BUILDING',
-        'text_base_fitness' => 'BASE FITNESS',
-        'text_perform' => 'PERFORM',
-        'text_pump' => 'PUMP',
-        'text_jump_start' => 'JUMP START',
-        'text_goal_setting' => 'GOAL SETTING',
-        'text_eating_healthy' => 'EATING HEALTHY',
-        'text_workout' => 'WORKOUT',
-        'text_you_need_a_coach' => 'YOU NEED A COACH',
-        'text_follow_mci' => 'FOLLOW MCI',
+        'title' => 'Programs',
+        'text_grin_method_program' => 'Grin Method Program',
+        'text_functional_body_building' => 'Functional Body Building',
+        'text_base_fitness' => 'Base Fitness',
+        'text_perform' => 'Perform',
+        'text_pump' => 'Pump',
+        'text_jump_start' => 'Jump Start',
+        'text_goal_setting' => 'Goal Setting',
+        'text_eating_healthy' => 'Eating Healthy',
+        'text_workout' => 'Workout',
+        'text_you_need_a_coach' => 'You Need A Coach',
+        'text_follow_mci' => 'Follow MCI',
     ],
     'features' => [
-        'title' => 'FEATURES',
-        'text_deserve_the_best' => 'YOU DESERVE THE BEST WITH CO FITNESS',
-        'text_with_best_results' => 'WE PROVIDE THE MOST INTENSIVE TRAININGS
+        'title' => 'Features',
+        'text_deserve_the_best' => 'You Deserve The Best With Co Fitness',
+        'text_with_best_results' => 'We Provide The Most Intensive Trainings
         WITH THE BEST RESULTS',
-        'text_gym_facilities_and_equipments' => 'GYM FACILITIES AND EQUIPMENT',
+        'text_gym_facilities_and_equipments' => 'Gym Facilities And Equipment',
     ],
     'blog' => [
-        'title' => 'BLOG',
+        'title' => 'Blog',
         'details' => [
             1 => [
                 'author' => 'Admin', 
@@ -109,7 +124,7 @@ return [
         ]
     ],
     'contact' => [
-        'title' => 'CONTACT US',
+        'title' => 'Contact Us',
     ],
     'email' => [
         'contact' => [

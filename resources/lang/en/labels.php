@@ -12,8 +12,19 @@ return [
             'dismiss' => 'Dismiss',
             'register' => 'Register Now',
         ],
+        'social' => [
+            'facebook' => 'Facebook',
+            'instagram' => 'Instagram',
+            'telegram' => 'Telegram',
+            'tiktok' => 'TikTok',
+            'twitter' => 'Twitter',
+            'viber' => 'Viber',
+            'whatsapp' => 'WhatsApp',
+            'youtube' => 'YouTube',
+        ]
     ],
     'bmi' => [
+        
         'form' => [
             'metric_units' => 'Metric Units',
             'imperial_units' => 'Imperial Units',
@@ -32,6 +43,16 @@ return [
         ],
         'button' => [
             'calculate' => 'Calculate',
+        ],
+        'success' => [
+            'message' => 'Your body mass index is',
+            'underweight' => 'Underweight',
+            'normal' => 'Normal weight',
+            'overweight' => 'Overweight',
+            'obesity' => 'Obesity',
+        ],
+        'error' => [
+            'message' => 'Please enter both weight and height to calculate.',
         ],
     ],
     'contact' => [

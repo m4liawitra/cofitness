@@ -10,11 +10,11 @@
         <div class="content"></div>
     </div>
     <div class="slantedDiv1 d-block d-sm-none">
-        <div class="content1"><div></div></div>
+        <div class="content1"></div>
     </div>
-    <div class="messenger">
+    <!--<div class="messenger">
         <img src="{{ asset('assets/frontend/images/home/comment.png') }}" width="90%"/>
-    </div>
+    </div>-->
     <!-- END: MAIN BANNER -->
     <!-- START: MAIN CONTENT -->
     <div class="main_content">
@@ -24,7 +24,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="single_banner">
-                            <img src="{{ asset('assets/frontend/images/home/about-us.jpg') }}" alt="{{ __('content.about.title') }}" />
+                            <img src="{{ asset('assets/frontend/images/home/about-us.jpg') }}" alt="{{ __('content.home.image.about_us') }}" />
                         </div>
                     </div>
                     <div class="col-md-6 pl-4">
@@ -45,15 +45,15 @@
                     <div class="col-md-6 pl-4">
                         <div class="single_banner">
                             <div class="text-center">
-                                <h2 style="font-size: 40px; font-weight: 800; font-style: italic;">KEEP YOUR MIND AND BODY</h2>
-                                <h2 class="my-4" style="font-size: 40px font-weight: 800; font-style: italic; color: #FF324D;">STRONG WITH US!</h2>
-                                <a href="{{ route('content.about') }}" class="btn btn-fill-out mt-4">About Us</a>
+                                <h2 style="font-size: 40px; font-weight: 800; font-style: italic;">{{ Str::upper(__('content.home.text_keep_your_mind_and_body')) }}</h2>
+                                <h2 class="my-4" style="font-size: 40px font-weight: 800; font-style: italic; color: #FF324D;">{{ Str::upper(__('content.home.text_strong_with_us')) }}</h2>
+                                <a href="{{ route('content.about') }}" class="btn btn-fill-out mt-4">{{ Str::upper(__('content.home.button.about')) }}</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="single_banner">
-                            <img src="{{ asset('assets/frontend/images/home/about-us.jpg') }}" alt="{{ __('content.about.title') }}" />
+                            <img src="{{ asset('assets/frontend/images/home/about-us.jpg') }}" alt="{{ __('content.home.image.about_us') }}" />
                         </div>
                     </div>
                 </div>
@@ -65,29 +65,29 @@
             <div class="row" style="padding-top: 20px; padding-bottom: 20px;">
                 <div class="col-md-6">
                     <div class="heading_s1 text-center">
-                        <h2 class="text-white" style="font-size: 35px; letter-spacing: 3px;">OUR SERVICES</h2>
-                        <p class="text-white">Each services focused on different types of training <br>for different area of the body, so you'll never do <br>the same workout twice.</p>
+                        <h2 class="text-white" style="font-size: 35px; letter-spacing: 3px;">{{ Str::upper(__('content.home.text_about_us')) }}</h2>
+                        <p class="text-white">{{ __('content.home.text_about_us_description') }}</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="product_slider carousel_slider owl-carousel owl-theme nav_style1" data-loop="true" data-dots="false" data-nav="true" data-responsive='{"0": {"items": "1"},"481": {"items": "2"},"768": {"items": "2"},"1199": {"items": "2"}}'>
                         <div class="item">
-                            <img src="{{ asset('assets/frontend/images/home/services-club.jpg') }}" />
+                            <img src="{{ asset('assets/frontend/images/home/services-club.jpg') }}" alt="{{ __('content.home.image.services_club') }}" />
                         </div>
                         <div class="item">
-                            <img src="{{ asset('assets/frontend/images/home/services-fitness.jpg') }}" />
+                            <img src="{{ asset('assets/frontend/images/home/services-fitness.jpg') }}" alt="{{ __('content.home.image.services_fitness') }}" />
                         </div>
                         <div class="item">
-                            <img src="{{ asset('assets/frontend/images/home/services-training.jpg') }}" />
+                            <img src="{{ asset('assets/frontend/images/home/services-training.jpg') }}" alt="{{ __('content.home.image.services_training') }}" />
                         </div>
                         <div class="item">
-                            <img src="{{ asset('assets/frontend/images/home/services-class.jpg') }}" />
+                            <img src="{{ asset('assets/frontend/images/home/services-class.jpg') }}" alt="{{ __('content.home.image.services_class') }}" />
                         </div>
                         <div class="item">
-                            <img src="{{ asset('assets/frontend/images/home/services-nutrition.jpg') }}" />
+                            <img src="{{ asset('assets/frontend/images/home/services-nutrition.jpg') }}" alt="{{ __('content.home.image.services_nutrition') }}" />
                         </div>
                         <div class="item">
-                            <img src="{{ asset('assets/frontend/images/home/services-rehab.jpg') }}" />
+                            <img src="{{ asset('assets/frontend/images/home/services-rehab.jpg') }}" alt="{{ __('content.home.image.services_rehab') }}" />
                         </div>
                     </div>
                 </div>
@@ -98,29 +98,29 @@
             <div class="row" style="padding-top: 20px; padding-bottom: 20px; padding-left: 50px;">
                 <div class="col-md-6 d-flex align-items-center">
                     <div class="heading_s1">
-                        <h2 class="text-white" style="font-size: 55px; letter-spacing: 3px;">OUR SERVICES</h2>
-                        <p class="text-white">Each services focused on different types of training <br>for different area of the body, so you'll never do <br>the same workout twice.</p>
+                        <h2 class="text-white" style="font-size: 55px; letter-spacing: 3px;">{{ Str::upper(__('content.home.text_about_us')) }}</h2>
+                        <p class="text-white">{{ __('content.home.text_about_us_description') }}</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="product_slider carousel_slider owl-carousel owl-theme nav_style1" data-loop="true" data-dots="false" data-nav="true" data-responsive='{"0": {"items": "1"},"481": {"items": "2"},"768": {"items": "2"},"1199": {"items": "2"}}'>
                         <div class="item">
-                            <img src="{{ asset('assets/frontend/images/home/services-club.jpg') }}" />
+                            <img src="{{ asset('assets/frontend/images/home/services-club.jpg') }}" alt="{{ __('content.home.image.services_club') }}" />
                         </div>
                         <div class="item">
-                            <img src="{{ asset('assets/frontend/images/home/services-fitness.jpg') }}" />
+                            <img src="{{ asset('assets/frontend/images/home/services-fitness.jpg') }}" alt="{{ __('content.home.image.services_fitness') }}" />
                         </div>
                         <div class="item">
-                            <img src="{{ asset('assets/frontend/images/home/services-training.jpg') }}" />
+                            <img src="{{ asset('assets/frontend/images/home/services-training.jpg') }}" alt="{{ __('content.home.image.services_training') }}" />
                         </div>
                         <div class="item">
-                            <img src="{{ asset('assets/frontend/images/home/services-class.jpg') }}" />
+                            <img src="{{ asset('assets/frontend/images/home/services-class.jpg') }}" alt="{{ __('content.home.image.services_class') }}" />
                         </div>
                         <div class="item">
-                            <img src="{{ asset('assets/frontend/images/home/services-nutrition.jpg') }}" />
+                            <img src="{{ asset('assets/frontend/images/home/services-nutrition.jpg') }}" alt="{{ __('content.home.image.services_nutrition') }}" />
                         </div>
                         <div class="item">
-                            <img src="{{ asset('assets/frontend/images/home/services-rehab.jpg') }}" />
+                            <img src="{{ asset('assets/frontend/images/home/services-rehab.jpg') }}" alt="{{ __('content.home.image.services_rehab') }}" />
                         </div>
                     </div>
                 </div>
@@ -238,7 +238,7 @@
                         <div class="row">
                             <div class="col p-0">
                                 <img src="{{ asset('assets/frontend/images/home/features-metcon.jpg') }}" alt="{{ __('content.features.title') }}" style="min-height: 100%; min-width: 100%; object-fit: cover;" />
-                                <a href="{{ route('content.features') }}" class="btn btn-fill-out" style="position: absolute; left: 20px;top:65px;background: white" >LEARN MORE</a>
+                                <a href="{{ route('content.features') }}#section-facilities" class="btn btn-fill-out" style="position: absolute; left: 20px; top:65px; background: white;">LEARN MORE</a>
                             </div>
                         </div>
                     </div>
@@ -246,7 +246,7 @@
                         <div class="row">
                             <div class="col p-0">
                                 <img src="{{ asset('assets/frontend/images/home/features-technogym.jpg') }}" alt="{{ __('content.features.title') }}" style="min-height: 100%; min-width: 100%; object-fit: cover;" />
-                                <a href="{{ route('content.features') }}" class="btn btn-fill-out" style="position: absolute; left: 20px;top:66px;background: white" >LEARN MORE</a>
+                                <a href="{{ route('content.features') }}#section-facilities" class="btn btn-fill-out" style="position: absolute; left: 20px; top: 66px; background: white;">LEARN MORE</a>
                             </div>
                         </div>
                     </div>
@@ -363,14 +363,16 @@
                     <div class="col-md-5 mr-auto" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">
                         <div class="row">
                             <div class="col p-0">
-                                <img src="{{ asset('assets/frontend/images/home/features-metcon.jpg') }}" alt="shop_banner_img1" style="min-height: 100%; min-width: 100%; object-fit: cover;" />
+                                <img src="{{ asset('assets/frontend/images/home/features-metcon.jpg') }}" alt="{{ __('content.features.title') }}" style="min-height: 100%; min-width: 100%; object-fit: cover;" />
+                                <a href="{{ route('content.features') }}#section-facilities" class="btn btn-fill-out" style="position: absolute; left: 23px; top:55px; background: white;">LEARN MORE</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-5" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">
                         <div class="row">
                             <div class="col p-0">
-                                <img src="{{ asset('assets/frontend/images/home/features-technogym.jpg') }}" alt="shop_banner_img1" style="min-height: 100%; min-width: 100%; object-fit: cover;" />
+                                <img src="{{ asset('assets/frontend/images/home/features-technogym.jpg') }}" alt="{{ __('content.features.title') }}" style="min-height: 100%; min-width: 100%; object-fit: cover;" />
+                                <a href="{{ route('content.features') }}#section-facilities" class="btn btn-fill-out" style="position: absolute; left: 23px; top: 55px; background: white;">LEARN MORE</a>
                             </div>
                         </div>
                     </div>
@@ -426,17 +428,17 @@
                                 <h2 style="font-size: 25px; font-weight: 600;">CALCULATE YOUR BMI</h2>
                             </div>
                             <p class="mb-4" style="color: black;">Keep Track of Your body</p>
-                            <form>
+                            <form id="form-calculate-bmi" name="form_calculate_bmi">
                                 <div class="row">
                                     <div class="col">
                                         <label>
-                                            <input type="radio" name="unit" />
+                                            <input type="radio" name="unit" data-placeholder-weight="{{ __('labels.bmi.form.weight') }} / {{ __('labels.bmi.form.weight_units.metric') }}" data-placeholder-height="{{ __('labels.bmi.form.height') }} / {{ __('labels.bmi.form.height_units.metric') }}" checked />
                                             <span>{{ __('labels.bmi.form.metric_units') }}</span>
                                         </label>
                                     </div>
                                     <div class="col">
                                         <label>
-                                            <input type="radio" name="unit" />
+                                            <input type="radio" name="unit" data-placeholder-weight="{{ __('labels.bmi.form.weight') }} / {{ __('labels.bmi.form.weight_units.imperial') }}" data-placeholder-height="{{ __('labels.bmi.form.height') }} / {{ __('labels.bmi.form.height_units.imperial') }}" />
                                             <span>{{ __('labels.bmi.form.imperial_units') }}</span>
                                         </label>
                                     </div>
@@ -444,28 +446,19 @@
                                 <div class="row">
                                     <div class="col-md-6 col-12">
                                         <div class="form-group">
-                                            <input type="text" name="name" class="form-control" placeholder="{{ __('labels.bmi.form.name') }}" required />
+                                            <input type="text" name="weight" class="form-control" name="weight" placeholder="{{ __('labels.bmi.form.weight') }} / {{ __('labels.bmi.form.weight_units.metric') }}" required />
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-12">
                                         <div class="form-group">
-                                            <input type="text" name="email" class="form-control" placeholder="{{ __('labels.bmi.form.email') }}" required />
+                                            <input type="text" name="height" class="form-control" name="height" placeholder="{{ __('labels.bmi.form.height') }} / {{ __('labels.bmi.form.height_units.metric') }}" required />
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-6 col-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="weight" placeholder="{{ __('labels.bmi.form.weight') }} / {{ __('labels.bmi.form.weight_units.metric') }}" required />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="height" placeholder="{{ __('labels.bmi.form.height') }} / {{ __('labels.bmi.form.height_units.metric') }}" required />
-                                        </div>
-                                    </div>
+                                <div id="alert-bmi" class="alert" role="alert" style="display: none;">
+                                    <div id="message-bmi" class="alert-text font-weight-bold mr-auto"></div>
                                 </div>
-                                <a href="javascript: void(0);" class="btn btn-fill-out" title="{{ __('labels.bmi.button.calculate') }}">{{ __('labels.bmi.button.calculate') }}</a>
+                                <a href="javascript: void(0);" id="btn-calculate-bmi" class="btn btn-fill-out" title="{{ __('labels.bmi.button.calculate') }}">{{ __('labels.bmi.button.calculate') }}</a>
                             </form>
                         </div>
                         <div class="medium_divider clearfix"></div>
@@ -478,66 +471,6 @@
                 </div>
             </div>
         </div>
-        {{--        <div class="section pb-0 d-block d-sm-none">--}}
-        {{--            <div class="row align-items-center pt-5 px-3">--}}
-        {{--                <div class="col-md-6 col-12">--}}
-        {{--                    <div class="medium_divider d-none d-md-block clearfix"></div>--}}
-        {{--                    <div class="trand_banner_text text-center text-md-left">--}}
-        {{--                        <div class="heading_s1 mb-3">--}}
-        {{--                            <h2 style="font-size: 25px; font-weight: 600;">CALCULATE YOUR BMI</h2>--}}
-        {{--                        </div>--}}
-        {{--                        <p class="mb-4" style="color: black;">Keep Track of Your body</p>--}}
-        {{--                        <form>--}}
-        {{--                            <div class="row">--}}
-        {{--                                <div class="col">--}}
-        {{--                                    <label>--}}
-        {{--                                        <input type="radio" name="unit" />--}}
-        {{--                                        <span>{{ __('labels.bmi.form.metric_units') }}</span>--}}
-        {{--                                    </label>--}}
-        {{--                                </div>--}}
-        {{--                                <div class="col">--}}
-        {{--                                    <label>--}}
-        {{--                                        <input type="radio" name="unit" />--}}
-        {{--                                        <span>{{ __('labels.bmi.form.imperial_units') }}</span>--}}
-        {{--                                    </label>--}}
-        {{--                                </div>--}}
-        {{--                            </div>--}}
-        {{--                            <div class="row">--}}
-        {{--                                <div class="col-12">--}}
-        {{--                                    <div class="form-group">--}}
-        {{--                                        <input type="text" name="name" class="form-control" placeholder="{{ __('labels.bmi.form.name') }}" required />--}}
-        {{--                                    </div>--}}
-        {{--                                </div>--}}
-        {{--                                <div class="col-12">--}}
-        {{--                                    <div class="form-group">--}}
-        {{--                                        <input type="text" name="email" class="form-control" placeholder="{{ __('labels.bmi.form.email') }}" required />--}}
-        {{--                                    </div>--}}
-        {{--                                </div>--}}
-        {{--                            </div>--}}
-        {{--                            <div class="row">--}}
-        {{--                                <div class="col-12">--}}
-        {{--                                    <div class="form-group">--}}
-        {{--                                        <input type="text" class="form-control" name="weight" placeholder="{{ __('labels.bmi.form.weight') }} / {{ __('labels.bmi.form.weight_units.metric') }}" required />--}}
-        {{--                                    </div>--}}
-        {{--                                </div>--}}
-        {{--                                <div class="col-12">--}}
-        {{--                                    <div class="form-group">--}}
-        {{--                                        <input type="text" class="form-control" name="height" placeholder="{{ __('labels.bmi.form.height') }} / {{ __('labels.bmi.form.height_units.metric') }}" required />--}}
-        {{--                                    </div>--}}
-        {{--                                </div>--}}
-        {{--                            </div>--}}
-        {{--                            <a href="javascript: void(0);" class="btn btn-fill-out" title="{{ __('labels.bmi.button.calculate') }}">{{ __('labels.bmi.button.calculate') }}</a>--}}
-        {{--                        </form>--}}
-        {{--                    </div>--}}
-        {{--                    <div class="medium_divider clearfix"></div>--}}
-        {{--                </div>--}}
-        {{--                <div class="col-md-6 col-12">--}}
-        {{--                    <div class="text-center trading_img">--}}
-        {{--                        <img src="{{ asset('assets/frontend/images/home/bmi.png') }}" alt="{{ __('content.home.text_calculate_bmi') }}" />--}}
-        {{--                    </div>--}}
-        {{--                </div>--}}
-        {{--            </div>--}}
-        {{--        </div>--}}
         <!-- END: CALCULATE BMI -->
         <!-- START: BLOG -->
         <div class="section d-none d-xl-block" style="background-color: #dedede;">
@@ -665,5 +598,69 @@
 @endsection
 
 @section('scripts')
+    <script type="text/javascript">
+        var FormBMICalculatorController = function() {
+            var initListeners = function() {
+                $('#form-calculate-bmi input[name="unit"]').on('change', function() {
+                    $('#form-calculate-bmi input[name="weight"]').attr('placeholder', $(this).data('placeholder-weight')).val('');
+                    $('#form-calculate-bmi input[name="height"]').attr('placeholder', $(this).data('placeholder-height')).val('');
+                    resetForm();
+                });
+                $('#form-calculate-bmi input[name="weight"]').on('keyup', function() {
+                    var varValue = $(this).val();
+                    varValue = varValue.replace(/[^.0-9]/g, '');
+                    $(this).val(varValue);
+                });
+                $('#form-calculate-bmi input[name="height"]').on('keyup', function() {
+                    var varValue = $(this).val();
+                    varValue = varValue.replace(/[^.0-9]/g, '');
+                    $(this).val(varValue);
+                });
+                $('#form-calculate-bmi #btn-calculate-bmi').on('click', function() {
+                    var varWeight = parseFloat($('#form-calculate-bmi input[name="weight"]').val());
+                    var varHeight = parseFloat($('#form-calculate-bmi input[name="height"]').val());
+                    if (varWeight > 0 && varHeight > 0) {
+                        var varBMI = (varWeight/(varHeight / 100) ** 2).toFixed(1);
+                        if (varBMI < 18.5) {
+                            var varClass = 'warning';
+                            var varBMIDescription = '{{ __('labels.bmi.success.underweight') }}';
+                        } else if (varBMI < 25) {
+                            var varClass = 'success';
+                            var varBMIDescription = '{{ __('labels.bmi.success.normal') }}';
+                        } else if (varBMI < 30) {
+                            var varClass = 'warning';
+                            var varBMIDescription = '{{ __('labels.bmi.success.overweight') }}';
+                        } else {
+                            var varClass = 'danger';
+                            var varBMIDescription = '{{ __('labels.bmi.success.obesity') }}';
+                        }
+                        resetForm();
+                        $('#form-calculate-bmi #message-bmi').html('{{ __('labels.bmi.success.message') }}: '+varBMIDescription);
+                        $('#form-calculate-bmi .alert-text').addClass('text-'+varClass);
+                        $('#form-calculate-bmi #alert-bmi').addClass('alert-'+varClass).show();
+                    } else {
+                        $('#form-calculate-bmi #message-bmi').html('{{ __('labels.bmi.error.message') }}');
+                        $('#form-calculate-bmi .alert-text').addClass('text-danger');
+                        $('#form-calculate-bmi #alert-bmi').addClass('alert-danger').show();
+                    }
+                });
+            };
 
+            var resetForm = function() {
+                $('#form-calculate-bmi #message-bmi').html('');
+                $('#form-calculate-bmi .alert-text').removeClass('text-warning text-success text-danger');
+                $('#form-calculate-bmi #alert-bmi').removeClass('alert-warning alert-success alert-danger').hide();
+            };
+
+            return {
+                init: function() {
+                    initListeners();
+                }
+            };
+        }();
+
+        jQuery(document).ready(function() {
+            FormBMICalculatorController.init();
+		});
+    </script>
 @endsection

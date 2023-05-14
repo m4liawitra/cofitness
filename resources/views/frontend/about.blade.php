@@ -19,8 +19,6 @@
             <h2 class="font-weight-bold" style="font-size: 38px; color: white;">CO FITNESS</h2>
         </div>
     </div>
-
-
     <!-- END: MAIN BANNER -->
     <!-- START: MAIN CONTENT -->
     <div class="main_content">
@@ -175,7 +173,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="row" style="padding: 100px 0;">
                 <div class="contentSkew1"></div>
                 <div class="col-lg-4">
@@ -196,21 +193,24 @@
                     </div>
                     <p style="color: black;">Anton Sietereales III is a highly experienced CrossFit coach and a professional functional fitness athlete.</p>
                     <p style="color: black;">In 2011, Anton discovered CrossFit while recovering from an injury that brought his body weight to 240 lbs. A female athlete who was doing Crossfit defeated him in a workout challenge. From that point, he got interested in Crossfit and started his colorful career as a professional fitness coach.</p>
-                    <p style="color: black;">Among the highlights of Anton\'s fitness career was becoming a CrossFit L1 Coach last 2014. He also served as coach for the Philippine Obstacle Racers Team and as head coach for some of the gyms that he helped set up in various locations within Metro Manila. As an athlete, Anton has joined several CrossFit competitions in the Philippines and other countries such as Hong Kong, Malaysia, Indonesia, Brunei, and as far as Russia.</p>
-                    <p style="color: black;">At the height of the 2020 pandemic, Anton designed a Functional Bodybuilding programming to help coaches affected by the closure of gym businesses have a full-time income. Using CrossFit as a methodology, Anton\'s Grin Method was born. The Grin Method is a well-rounded approach to physical fitness through functional movements and exercises to enhance one\'s body composition, athletic abilities, and overall physique.</p>
+                    <p style="color: black;">Among the highlights of Anton's fitness career was becoming a CrossFit L1 Coach last 2014. He also served as coach for the Philippine Obstacle Racers Team and as head coach for some of the gyms that he helped set up in various locations within Metro Manila. As an athlete, Anton has joined several CrossFit competitions in the Philippines and other countries such as Hong Kong, Malaysia, Indonesia, Brunei, and as far as Russia.</p>
+                    <p style="color: black;">At the height of the 2020 pandemic, Anton designed a Functional Bodybuilding programming to help coaches affected by the closure of gym businesses have a full-time income. Using CrossFit as a methodology, Anton's Grin Method was born. The Grin Method is a well-rounded approach to physical fitness through functional movements and exercises to enhance one's body composition, athletic abilities, and overall physique.</p>
                     <p style="color: black;">Anton is known for his emphasis on training and education, especially for his team of coaches, in order to continuously improve their craft. He also instills discipline in his clients and trains them in a way so that they can also do it on their own.</p>
                     <p style="color: black;">Anton has been working in the fitness industry for over 10 years now. He thrives not only as a professional functional fitness athlete and coach but also as a businessman, having signed exclusive distributorship rights with Metcon, the maker of world-class endurance machines, weightlifting bars, and other functional training and gym equipment. He is also managing Metcon Group PH, his own gym located in Pasig City, catering to professional athletes, everyday fitness enthusiasts, and even celebrities.</p>
                     <ul class="social_icons">
-                        <li><a href="{{ __('content.about.social.facebook') }}"><img src="{{asset('assets/frontend/images/about/facebook.png')}}" width="100"/> </a></li>
-                        <li><a href="{{ __('content.about.social.instagram')[0] }}"><img src="{{asset('assets/frontend/images/about/instagram.png')}}" width="100"/></a></li>
-                        <li><a href="{{ __('content.about.social.twitter')[1] }}"><img src="{{asset('assets/frontend/images/about/twitter.png')}}" width="100"/></a></li>
-                        <li><a href="{{ __('content.about.social.tiktok') }}"><img src="{{asset('assets/frontend/images/about/tiktok.png')}}" width="100"/></a></li>
-                        <li><a href="{{ __('content.about.social.youtube') }}"><img src="{{asset('assets/frontend/images/about/youtube.png')}}" width="100"/></a></li>
+                        <li><a href="{{ __('content.about.social.facebook') }}" title="{{ __('labels.common.social.facebook') }}" target="_blank"><img src="{{asset('assets/common/images/social/facebook.png')}}" width="100"/> </a></li>
+                        <li><a href="{{ __('content.about.social.instagram')[0] }}" title="{{ __('labels.common.social.instagram') }}" target="_blank"><img src="{{asset('assets/common/images/social/instagram.png')}}" width="100"/></a></li>
+                        <li><a href="{{ __('content.about.social.viber')[1] }}" title="{{ __('labels.common.social.viber') }}" target="_blank"><img src="{{asset('assets/common/images/social/viber.png')}}" width="100"/></a></li>
+                        <li><a href="{{ __('content.about.social.twitter')[1] }}" title="{{ __('labels.common.social.twitter') }}" target="_blank"><img src="{{asset('assets/common/images/social/twitter.png')}}" width="100"/></a></li>
+                        <li><a href="{{ __('content.about.social.tiktok') }}" title="{{ __('labels.common.social.tiktok') }}" target="_blank"><img src="{{asset('assets/common/images/social/tiktok.png')}}" width="100"/></a></li>
+                        <li><a href="{{ __('content.about.social.telegram') }}" title="{{ __('labels.common.social.telegram') }}" target="_blank"><img src="{{asset('assets/common/images/social/telegram.png')}}" width="100"/></a></li>
+                        <li><a href="{{ __('content.about.social.whatsapp') }}" title="{{ __('labels.common.social.whatsapp') }}" target="_blank"><img src="{{asset('assets/common/images/social/whatsapp.png')}}" width="100"/></a></li>
+                        <li><a href="{{ __('content.about.social.youtube') }}" title="{{ __('labels.common.social.youtube') }}" target="_blank"><img src="{{asset('assets/common/images/social/youtube.png')}}" width="100"/></a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="section pt-0 pb_70 d-none d-xl-block">
+        <div class="section d-none d-xl-block pt-0 pb_70 ">
             <div id="trainers">TRAINERS</div>
             <div id="trainers1">TRAINERS</div>
             <div class="row justify-content-center mt-5" style="padding: 20px 100px;">
@@ -225,13 +225,15 @@
                     <div class="team_box team_style1" style="border-radius: 200px;">
                         <div class="team_img" style="height: 300px;">
                             <img src="{{ asset('assets/frontend/images/about/trainer-01.png') }}" alt="{{ __('content.about.text_meet_the_team') }}" style="object-fit: cover; height: 100%;" />
+                            {{--
                             <ul class="social_icons">
-                                <li><a href="{{ __('content.about.social.facebook') }}"><img src="{{asset('assets/frontend/images/about/facebook.png')}}" width="100"/> </a></li>
-                                <li><a href="{{ __('content.about.social.instagram')[0] }}"><img src="{{asset('assets/frontend/images/about/instagram.png')}}" width="100"/></a></li>
-                                <li><a href="{{ __('content.about.social.twitter')[1] }}"><img src="{{asset('assets/frontend/images/about/twitter.png')}}" width="100"/></a></li>
-                                <li><a href="{{ __('content.about.social.tiktok') }}"><img src="{{asset('assets/frontend/images/about/tiktok.png')}}" width="100"/></a></li>
-                                <li><a href="{{ __('content.about.social.youtube') }}"><img src="{{asset('assets/frontend/images/about/youtube.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.facebook') }}" target="_blank"><img src="{{asset('assets/common/images/social/facebook.png')}}" width="100"/> </a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.instagram') }}" target="_blank"><img src="{{asset('assets/common/images/social/instagram.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.twitter') }}" target="_blank"><img src="{{asset('assets/common/images/social/twitter.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.tiktok') }}" target="_blank"><img src="{{asset('assets/common/images/social/tiktok.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.youtube') }}" target="_blank"><img src="{{asset('assets/common/images/social/youtube.png')}}" width="100"/></a></li>
                             </ul>
+                            --}}
                         </div>
                     </div>
                 </div>
@@ -239,13 +241,15 @@
                     <div class="team_box team_style1" style="border-radius: 200px;">
                         <div class="team_img" style="height: 300px;">
                             <img src="{{ asset('assets/frontend/images/about/trainer-02.png') }}" alt="{{ __('content.about.text_meet_the_team') }}" style="object-fit: cover; height: 100%;" />
+                            {{--
                             <ul class="social_icons">
-                                <li><a href="{{ __('content.about.social.facebook') }}"><img src="{{asset('assets/frontend/images/about/facebook.png')}}" width="100"/> </a></li>
-                                <li><a href="{{ __('content.about.social.instagram')[0] }}"><img src="{{asset('assets/frontend/images/about/instagram.png')}}" width="100"/></a></li>
-                                <li><a href="{{ __('content.about.social.twitter')[1] }}"><img src="{{asset('assets/frontend/images/about/twitter.png')}}" width="100"/></a></li>
-                                <li><a href="{{ __('content.about.social.tiktok') }}"><img src="{{asset('assets/frontend/images/about/tiktok.png')}}" width="100"/></a></li>
-                                <li><a href="{{ __('content.about.social.youtube') }}"><img src="{{asset('assets/frontend/images/about/youtube.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.facebook') }}" target="_blank"><img src="{{asset('assets/common/images/social/facebook.png')}}" width="100"/> </a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.instagram') }}" target="_blank"><img src="{{asset('assets/common/images/social/instagram.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.twitter') }}" target="_blank"><img src="{{asset('assets/common/images/social/twitter.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.tiktok') }}" target="_blank"><img src="{{asset('assets/common/images/social/tiktok.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.youtube') }}" target="_blank"><img src="{{asset('assets/common/images/social/youtube.png')}}" width="100"/></a></li>
                             </ul>
+                            --}}
                         </div>
                     </div>
                 </div>
@@ -253,13 +257,15 @@
                     <div class="team_box team_style1" style="border-radius: 200px;">
                         <div class="team_img" style="height: 300px;">
                             <img src="{{ asset('assets/frontend/images/about/trainer-03.png') }}" alt="{{ __('content.about.text_meet_the_team') }}" style="object-fit: cover; height: 100%;" />
+                            {{--
                             <ul class="social_icons">
-                                <li><a href="{{ __('content.about.social.facebook') }}"><img src="{{asset('assets/frontend/images/about/facebook.png')}}" width="100"/> </a></li>
-                                <li><a href="{{ __('content.about.social.instagram')[0] }}"><img src="{{asset('assets/frontend/images/about/instagram.png')}}" width="100"/></a></li>
-                                <li><a href="{{ __('content.about.social.twitter')[1] }}"><img src="{{asset('assets/frontend/images/about/twitter.png')}}" width="100"/></a></li>
-                                <li><a href="{{ __('content.about.social.tiktok') }}"><img src="{{asset('assets/frontend/images/about/tiktok.png')}}" width="100"/></a></li>
-                                <li><a href="{{ __('content.about.social.youtube') }}"><img src="{{asset('assets/frontend/images/about/youtube.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.facebook') }}" target="_blank"><img src="{{asset('assets/common/images/social/facebook.png')}}" width="100"/> </a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.instagram') }}" target="_blank"><img src="{{asset('assets/common/images/social/instagram.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.twitter') }}" target="_blank"><img src="{{asset('assets/common/images/social/twitter.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.tiktok') }}" target="_blank"><img src="{{asset('assets/common/images/social/tiktok.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.youtube') }}" target="_blank"><img src="{{asset('assets/common/images/social/youtube.png')}}" width="100"/></a></li>
                             </ul>
+                            --}}
                         </div>
                     </div>
                 </div>
@@ -267,19 +273,21 @@
                     <div class="team_box team_style1" style="border-radius: 200px;">
                         <div class="team_img" style="height: 300px;">
                             <img src="{{ asset('assets/frontend/images/about/trainer-04.png') }}" alt="{{ __('content.about.text_meet_the_team') }}" style="object-fit: cover; height: 100%;" />
+                            {{--
                             <ul class="social_icons">
-                                <li><a href="{{ __('content.about.social.facebook') }}"><img src="{{asset('assets/frontend/images/about/facebook.png')}}" width="100"/> </a></li>
-                                <li><a href="{{ __('content.about.social.instagram')[0] }}"><img src="{{asset('assets/frontend/images/about/instagram.png')}}" width="100"/></a></li>
-                                <li><a href="{{ __('content.about.social.twitter')[1] }}"><img src="{{asset('assets/frontend/images/about/twitter.png')}}" width="100"/></a></li>
-                                <li><a href="{{ __('content.about.social.tiktok') }}"><img src="{{asset('assets/frontend/images/about/tiktok.png')}}" width="100"/></a></li>
-                                <li><a href="{{ __('content.about.social.youtube') }}"><img src="{{asset('assets/frontend/images/about/youtube.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.facebook') }}" target="_blank"><img src="{{asset('assets/common/images/social/facebook.png')}}" width="100"/> </a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.instagram') }}" target="_blank"><img src="{{asset('assets/common/images/social/instagram.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.twitter') }}" target="_blank"><img src="{{asset('assets/common/images/social/twitter.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.tiktok') }}" target="_blank"><img src="{{asset('assets/common/images/social/tiktok.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.youtube') }}" target="_blank"><img src="{{asset('assets/common/images/social/youtube.png')}}" width="100"/></a></li>
                             </ul>
+                            --}}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section pb_70 d-block d-sm-none">
+        <div class="section d-block d-sm-none pb_70 ">
             <div class="row justify-content-center">
                 <div class="col-lg-12 col-sm-12" style="padding: 0 50px;">
                     <div class="heading_s1 text-center py-2" style="border-top: solid 2px #C12435; border-bottom: solid 2px #C12435;">
@@ -307,15 +315,19 @@
                     </div>
                     <p style="color: black;">Anton Sietereales III is a highly experienced CrossFit coach and a professional functional fitness athlete.</p>
                     <p style="color: black;">In 2011, Anton discovered CrossFit while recovering from an injury that brought his body weight to 240 lbs. A female athlete who was doing Crossfit defeated him in a workout challenge. From that point, he got interested in Crossfit and started his colorful career as a professional fitness coach.</p>
-                    <p style="color: black;">Among the highlights of Anton\'s fitness career was becoming a CrossFit L1 Coach last 2014. He also served as coach for the Philippine Obstacle Racers Team and as head coach for some of the gyms that he helped set up in various locations within Metro Manila. As an athlete, Anton has joined several CrossFit competitions in the Philippines and other countries such as Hong Kong, Malaysia, Indonesia, Brunei, and as far as Russia.</p>
-                    <p style="color: black;">At the height of the 2020 pandemic, Anton designed a Functional Bodybuilding programming to help coaches affected by the closure of gym businesses have a full-time income. Using CrossFit as a methodology, Anton\'s Grin Method was born. The Grin Method is a well-rounded approach to physical fitness through functional movements and exercises to enhance one\'s body composition, athletic abilities, and overall physique.</p>
+                    <p style="color: black;">Among the highlights of Anton's fitness career was becoming a CrossFit L1 Coach last 2014. He also served as coach for the Philippine Obstacle Racers Team and as head coach for some of the gyms that he helped set up in various locations within Metro Manila. As an athlete, Anton has joined several CrossFit competitions in the Philippines and other countries such as Hong Kong, Malaysia, Indonesia, Brunei, and as far as Russia.</p>
+                    <p style="color: black;">At the height of the 2020 pandemic, Anton designed a Functional Bodybuilding programming to help coaches affected by the closure of gym businesses have a full-time income. Using CrossFit as a methodology, Anton's Grin Method was born. The Grin Method is a well-rounded approach to physical fitness through functional movements and exercises to enhance one's body composition, athletic abilities, and overall physique.</p>
                     <p style="color: black;">Anton is known for his emphasis on training and education, especially for his team of coaches, in order to continuously improve their craft. He also instills discipline in his clients and trains them in a way so that they can also do it on their own.</p>
                     <p style="color: black;">Anton has been working in the fitness industry for over 10 years now. He thrives not only as a professional functional fitness athlete and coach but also as a businessman, having signed exclusive distributorship rights with Metcon, the maker of world-class endurance machines, weightlifting bars, and other functional training and gym equipment. He is also managing Metcon Group PH, his own gym located in Pasig City, catering to professional athletes, everyday fitness enthusiasts, and even celebrities.</p>
-                    <ul class="social_icons">
-                        <li><a href="{{ __('content.about.social.facebook') }}"><i class="ion-social-facebook"></i></a></li>
-                        <li><a href="{{ __('content.about.social.instagram')[0] }}"><i class="ion-social-instagram-outline"></i></a></li>
-                        <li><a href="{{ __('content.about.social.instagram')[1] }}"><i class="ion-social-instagram-outline"></i></a></li>
-                        <li><a href="{{ __('content.about.social.twitter') }}"><i class="ion-social-twitter"></i></a></li>
+                    <ul class="social_icons text-center">
+                        <li><a href="{{ __('content.about.social.facebook') }}" title="{{ __('labels.common.social.facebook') }}" target="_blank"><img src="{{asset('assets/common/images/social/facebook.png')}}" width="100"/> </a></li>
+                        <li><a href="{{ __('content.about.social.instagram')[0] }}" title="{{ __('labels.common.social.instagram') }}" target="_blank"><img src="{{asset('assets/common/images/social/instagram.png')}}" width="100"/></a></li>
+                        <li><a href="{{ __('content.about.social.viber')[1] }}" title="{{ __('labels.common.social.viber') }}" target="_blank"><img src="{{asset('assets/common/images/social/viber.png')}}" width="100"/></a></li>
+                        <li><a href="{{ __('content.about.social.twitter')[1] }}" title="{{ __('labels.common.social.twitter') }}" target="_blank"><img src="{{asset('assets/common/images/social/twitter.png')}}" width="100"/></a></li>
+                        <li><a href="{{ __('content.about.social.tiktok') }}" title="{{ __('labels.common.social.tiktok') }}" target="_blank"><img src="{{asset('assets/common/images/social/tiktok.png')}}" width="100"/></a></li>
+                        <li><a href="{{ __('content.about.social.telegram') }}" title="{{ __('labels.common.social.telegram') }}" target="_blank"><img src="{{asset('assets/common/images/social/telegram.png')}}" width="100"/></a></li>
+                        <li><a href="{{ __('content.about.social.whatsapp') }}" title="{{ __('labels.common.social.whatsapp') }}" target="_blank"><img src="{{asset('assets/common/images/social/whatsapp.png')}}" width="100"/></a></li>
+                        <li><a href="{{ __('content.about.social.youtube') }}" title="{{ __('labels.common.social.youtube') }}" target="_blank"><img src="{{asset('assets/common/images/social/youtube.png')}}" width="100"/></a></li>
                     </ul>
                 </div>
             </div>
@@ -333,10 +345,11 @@
                             <img src="{{ asset('assets/frontend/images/about/trainer-01.png') }}" alt="{{ __('content.about.text_meet_the_team') }}" style="object-fit: cover; height: 100%;" />
                             {{--
                             <ul class="social_icons social_style1">
-                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.facebook') }}" target="_blank"><img src="{{asset('assets/common/images/social/facebook.png')}}" width="100"/> </a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.instagram') }}" target="_blank"><img src="{{asset('assets/common/images/social/instagram.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.twitter') }}" target="_blank"><img src="{{asset('assets/common/images/social/twitter.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.tiktok') }}" target="_blank"><img src="{{asset('assets/common/images/social/tiktok.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.youtube') }}" target="_blank"><img src="{{asset('assets/common/images/social/youtube.png')}}" width="100"/></a></li>
                             </ul>
                             --}}
                         </div>
@@ -348,10 +361,11 @@
                             <img src="{{ asset('assets/frontend/images/about/trainer-02.png') }}" alt="{{ __('content.about.text_meet_the_team') }}" style="object-fit: cover; height: 100%;" />
                             {{--
                             <ul class="social_icons social_style1">
-                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.facebook') }}" target="_blank"><img src="{{asset('assets/common/images/social/facebook.png')}}" width="100"/> </a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.instagram') }}" target="_blank"><img src="{{asset('assets/common/images/social/instagram.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.twitter') }}" target="_blank"><img src="{{asset('assets/common/images/social/twitter.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.tiktok') }}" target="_blank"><img src="{{asset('assets/common/images/social/tiktok.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.youtube') }}" target="_blank"><img src="{{asset('assets/common/images/social/youtube.png')}}" width="100"/></a></li>
                             </ul>
                             --}}
                         </div>
@@ -363,10 +377,11 @@
                             <img src="{{ asset('assets/frontend/images/about/trainer-03.png') }}" alt="{{ __('content.about.text_meet_the_team') }}" style="object-fit: cover; height: 100%;" />
                             {{--
                             <ul class="social_icons social_style1">
-                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.facebook') }}" target="_blank"><img src="{{asset('assets/common/images/social/facebook.png')}}" width="100"/> </a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.instagram') }}" target="_blank"><img src="{{asset('assets/common/images/social/instagram.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.twitter') }}" target="_blank"><img src="{{asset('assets/common/images/social/twitter.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.tiktok') }}" target="_blank"><img src="{{asset('assets/common/images/social/tiktok.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.youtube') }}" target="_blank"><img src="{{asset('assets/common/images/social/youtube.png')}}" width="100"/></a></li>
                             </ul>
                             --}}
                         </div>
@@ -378,10 +393,11 @@
                             <img src="{{ asset('assets/frontend/images/about/trainer-04.png') }}" alt="{{ __('content.about.text_meet_the_team') }}" style="object-fit: cover; height: 100%;" />
                             {{--
                             <ul class="social_icons social_style1">
-                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.facebook') }}" target="_blank"><img src="{{asset('assets/common/images/social/facebook.png')}}" width="100"/> </a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.instagram') }}" target="_blank"><img src="{{asset('assets/common/images/social/instagram.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.twitter') }}" target="_blank"><img src="{{asset('assets/common/images/social/twitter.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.tiktok') }}" target="_blank"><img src="{{asset('assets/common/images/social/tiktok.png')}}" width="100"/></a></li>
+                                <li><a href="#" title="{{ __('labels.common.social.youtube') }}" target="_blank"><img src="{{asset('assets/common/images/social/youtube.png')}}" width="100"/></a></li>
                             </ul>
                             --}}
                         </div>
